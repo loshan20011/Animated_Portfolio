@@ -15,7 +15,7 @@ const HeroContext = () => {
     className="h-full flex flex-row items-center justify-center md:px-20 px-10 w-full z-[20]"
     >
         <div className="h-full w-full flex flex-col md:gap-5 justify-center md:m-auto m-0 text-start">
-            <div className="flex flex-col md:flex-row md:gap-5 gap-2 md:mt-[100px] mt-[100px]">        
+            <div className="flex flex-col md:flex-row md:gap-5 gap-2 md:mt-[160px] mt-[100px]">        
                 <motion.div
                     variants={slideInFromTop}
                     className="Welcome-box py-[8px] px-[7px] border border-[#a2790d] opacity-[0.9]"
@@ -83,7 +83,7 @@ const HeroContext = () => {
 
         <motion.div
         variants={slideInFromRight(0.8)}
-        className="w-full h-full flex justify-center items-center"
+        className="w-full h-full flex justify-center items-center md:mt-[160px]"
       >
         <Image
           src="/mainIconsdark.svg"
