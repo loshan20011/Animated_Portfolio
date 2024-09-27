@@ -18,14 +18,14 @@ const ProjectCard = ({
 }: Props) => {
   return (
     <button
-      className="flex flex-col text-justify max-w-[460px] md:min-h-[70vh] relative z-50 project-primary overflow-hidden rounded-lg shadow-lg border border-[#333333]"
+      className="flex flex-col text-justify max-w-[460px] md:min-h-[70vh] relative project-primary overflow-hidden rounded-lg shadow-inner shadow-md shadow-[#a2790d] bg-[#03001417]"
     >
       <Image
         src={src}
         alt={title}
         width={1200}
         height={1200}
-        className="md:max-h-[240px] md:min-h-[240px] w-full"
+        className="md:max-h-[240px] md:min-h-[240px] w-full object-cover"
       />
 
       <div className="relative p-4">

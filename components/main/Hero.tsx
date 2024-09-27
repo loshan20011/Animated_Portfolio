@@ -4,7 +4,7 @@ import HeroContext from '../sub/HeroContext'
 
 const Hero = () => {
   return (
-    <div className='relative flex flex-col h-full w-full'>
+    <div className='relative flex flex-col h-full w-full' id='Home'>
          <video
         autoPlay
         muted

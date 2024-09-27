@@ -33,7 +33,7 @@ const sectionVariants: Variants = {
 
 const Skills = () => {
   return (
-    <section className="skills-section py-20">
+    <section className="skills-section py-20 " id="skills">
       <h1 className="text-[50px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-500">
         Technical Skills
       </h1>

@@ -12,7 +12,7 @@ const MyProjects = () => {
       className="flex flex-col items-center justify-center"
     >
       <h1 className="text-[50px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-500">
-        About Me
+        Projects<br/><br/>
       </h1>
 
       
@@ -25,9 +25,7 @@ const MyProjects = () => {
             title="Virtual Lab for A/L Students"
             description="It is a web-based platform designed to enhance practical learning experiences for advanced-level school students. 
                 I designed and developed the backend authentication, controls, middleware, and data schemas, along with the data storage
-                system using MongoDB. Also implemented Google authentication.
-                Developed admin dashboard functionalities to add new practical and subjects.
-                Developed frontend user interface with ReactJS."
+                system using MongoDB. Also implemented Google authentication."
             techStack={["ReactJS", "CSS", "MongoDB", "Firebase", "NodeJS", "PostmanAPI", "API Integration" ]}
           />
         </Link>
