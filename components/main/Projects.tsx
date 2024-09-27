@@ -57,7 +57,7 @@ const MyProjects = () => {
             src="/beehoney.png"
             title="BeeHoney"
             description="In this project, I have crafted a conceptualized, designed, and developed a responsive website for the business."
-            techStack={["Wordpress", "Elementor", "wordpress plugins"]}
+            techStack={["Wordpress", "WooCommerce Plugin", "CF7", "Updraft"]}
           />
         </Link>
        
