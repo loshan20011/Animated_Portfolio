@@ -1,6 +1,6 @@
 "use client";
 
-import { Variants, Variant } from "framer-motion";
+import { Variants } from "framer-motion";
 import SkillSection from "../sub/SkillSection"; // Adjust the path as needed
 import { Frontend_skill, Backend_skill, Full_stack, Other_skill } from "@/constants"; // Assuming your skills data is in a file
 

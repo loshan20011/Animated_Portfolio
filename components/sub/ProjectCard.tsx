@@ -14,7 +14,7 @@ const ProjectCard = ({
   src,
   title,
   description,
-  techStack,
+  
 }: Props) => {
   return (
     <button
