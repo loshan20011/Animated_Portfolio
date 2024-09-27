@@ -21,18 +21,17 @@ const HeroContext = () => {
                     className="Welcome-box py-[8px] px-[7px] border border-[#a2790d] opacity-[0.9]"
                     >
                     <SparklesIcon className="text-[#b48811] mr-[10px] h-5 w-5" />
-                    <h1 className="Welcome-text text-[13px]">
-                        DevOps Engineer
+                    <h1 className="Welcome-text text-[13px] font-bold text-[#bb9b49]">
+                        DevOps Engineer&nbsp;
                     </h1>
                 </motion.div>
-
                 <motion.div
                 variants={slideInFromTop}
                 className="Welcome-box py-[8px] px-[7px] border border-[#a2790d] opacity-[0.9]"
                 >
                 <SparklesIcon className="text-[#b48811] mr-[10px] h-5 w-5" />
-                <h1 className="Welcome-text text-[13px]">
-                    Fullstack Developer 
+                <h1 className="Welcome-text text-[13px] font-bold">
+                    Software Engineer&nbsp;
                 </h1>
                 </motion.div>
 
@@ -41,8 +40,18 @@ const HeroContext = () => {
                 className="Welcome-box py-[8px] px-[7px] border border-[#a2790d] opacity-[0.9]"
                 >
                 <SparklesIcon className="text-[#b48811] mr-[10px] h-5 w-5" />
-                <h1 className="Welcome-text text-[13px]">
-                    UI/UX enthusiast
+                <h1 className="Welcome-text text-[13px] font-bold">
+                    Fullstack Developer &nbsp;
+                </h1>
+                </motion.div>
+
+                <motion.div
+                variants={slideInFromTop}
+                className="Welcome-box py-[8px] px-[7px] border border-[#a2790d] opacity-[0.9]"
+                >
+                <SparklesIcon className="text-[#b48811] mr-[10px] h-5 w-5" />
+                <h1 className="Welcome-text text-[13px] font-bold">
+                    UI/UX Enthusiast&nbsp;
                 </h1>
                 </motion.div>
             </div>
