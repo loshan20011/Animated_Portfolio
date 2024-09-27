@@ -15,7 +15,7 @@ const page = () => {
   return (
     <div className='md:h-[88vh] w-full justify-center md:items-center'>
       <h1 className="text-[50px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-500 mt-10">
-        BeeHoney Company Website
+        BeeHoney Official Website
       </h1>
       <div className="w-full flex flex-row">
         <div className="grid grid-cols-1 md:grid-cols-2 mx-10 md:mx-40">

@@ -8,14 +8,14 @@ import {motion} from 'framer-motion'
 import { ArrowLeftIcon } from '@heroicons/react/24/solid'
 import { slideInFromLeft } from '@/utils/motion'
 
-const functionalities = ["Contact From", "Google search", "Front end pages"]
-const techStack = ["HTML", "CSS", "JavaScript"];
+const functionalities = ["user authentication", "Check available seats", "Book a seat", "View history"];
+const techStack = ["Java", "Eclipse"];
 
 const page = () => {
   return (
     <div className='md:h-[88vh] w-full justify-center md:items-center'>
       <h1 className="text-[50px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-500 mt-10">
-        LifeSpark Home Builders
+        ShaTheatre
       </h1>
       <div className="w-full flex flex-row">
         <div className="grid grid-cols-1 md:grid-cols-2 mx-10 md:mx-40">
@@ -23,8 +23,8 @@ const page = () => {
           <div className="flex flex-col items-start">
             <div className="mt-20 md:mt-24 mb-40 md:mb-0 w-[340px] md:w-[400px] md:h-[200px] h-0 relative">
               <Image
-                src="/lifespark.png"
-                alt="lifespark"
+                src="/ShaTheatre.png"
+                alt="shatheatre"
                 width={800}
                 height={200}
                 className="object-cover md:[500px] rounded-lg shadow-lg border border-[#333333]"
@@ -33,8 +33,8 @@ const page = () => {
             
             <p className="text-justify mb-8 md:text-lg md:text-white text-base text-gray-400 mr-4 ">
                 <br/><br/>
-                First year individual web project for construction company, designed and developed 
-                responsive frontend pages. And deployed the website in GitHub platform
+                I used Window Builder in Eclipse to design a Java GUI application for a theatre seat booking system. Implemented user
+                authentication with HashMap and managed seat bookings using Array List. It incorporates OOP principles
             </p>
           </div>
 

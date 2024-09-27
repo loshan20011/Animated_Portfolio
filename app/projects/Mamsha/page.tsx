@@ -8,14 +8,14 @@ import {motion} from 'framer-motion'
 import { ArrowLeftIcon } from '@heroicons/react/24/solid'
 import { slideInFromLeft } from '@/utils/motion'
 
-const functionalities = ["Contact From", "Google search", "Front end pages"]
-const techStack = ["HTML", "CSS", "JavaScript"];
+const functionalities = ["User Authentication", "Course Completion", "Add to cart", "Zoom Integration"];
+const techStack = ["MS LMS", "eRoom Plugin", "Royal Addons"];
 
 const page = () => {
   return (
     <div className='md:h-[88vh] w-full justify-center md:items-center'>
       <h1 className="text-[50px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-500 mt-10">
-        LifeSpark Home Builders
+        Mamsha Academy Official Website
       </h1>
       <div className="w-full flex flex-row">
         <div className="grid grid-cols-1 md:grid-cols-2 mx-10 md:mx-40">
@@ -23,8 +23,8 @@ const page = () => {
           <div className="flex flex-col items-start">
             <div className="mt-20 md:mt-24 mb-40 md:mb-0 w-[340px] md:w-[400px] md:h-[200px] h-0 relative">
               <Image
-                src="/lifespark.png"
-                alt="lifespark"
+                src="/Mamsha.png"
+                alt="Mamsha"
                 width={800}
                 height={200}
                 className="object-cover md:[500px] rounded-lg shadow-lg border border-[#333333]"
@@ -32,9 +32,9 @@ const page = () => {
             </div>
             
             <p className="text-justify mb-8 md:text-lg md:text-white text-base text-gray-400 mr-4 ">
-                <br/><br/>
-                First year individual web project for construction company, designed and developed 
-                responsive frontend pages. And deployed the website in GitHub platform
+            <br/><br/><br/>
+            In this project, I developed LMS system for vieing course details, add to cart, user authentication. I have integrated live zoom meeting
+            with the web app where students can able to get into the meeting easily.
             </p>
           </div>
 

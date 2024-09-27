@@ -106,7 +106,7 @@ const MyProjects = () => {
             title="Mamsha Academy"
             description="In this project, I developed LMS system for vieing course details, add to cart, user authentication. I have integrated live zoom meeting
             with the web app where students can able to get into the meeting easily."
-            techStack={["Java", "JavaSwing"]}
+            techStack={["MS LMS", "eRoom Plugin", "Royal Addons"]}
           />
         </Link>
       </div>
