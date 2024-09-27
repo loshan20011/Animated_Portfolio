@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         
 
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
+        <div className="w-[700px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto bg-[#03001417] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
           <a href="#Home" className="cursor-pointer">
               Home
@@ -21,6 +21,9 @@ const Navbar = () => {
             </a>
             <a href="#projects" className="cursor-pointer">
               Projects
+            </a>
+            <a href="#awards" className="cursor-pointer">
+              Achievements
             </a>
             <a href="#contactme" className="cursor-pointer">
               Contact Me
