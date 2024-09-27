@@ -122,7 +122,7 @@ const AboutMe = () => {
       key={index}
       className="p-6 text-white rounded-lg shadow-lg"
       style={{
-        background: "linear-gradient( 180deg, rgba(158, 117, 12, 0.69) 0%, rgba(129, 107, 50, 0.853) 100% ), rgba(180,136,17, 0.24);",
+        background: "linear-gradient( 180deg, rgba(158, 117, 12, 0.69) 0%, rgba(129, 107, 50, 0.853) 100% ), rgba(180,136,17, 0.24)",
       }}
     >
       <h3 className="font-bold text-lg">{item.year}</h3>
