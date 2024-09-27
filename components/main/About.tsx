@@ -70,7 +70,7 @@ const TAB_DATA: {
 
 const AboutMe = () => {
   const [tab, setTab] = useState<"education" | "workExperience">("education");
-  const [isPending, startTransition] = useTransition();
+  const [, startTransition] = useTransition();
 
   // Handle tab change
   const handleTabChange = (id: "education" | "workExperience") => {

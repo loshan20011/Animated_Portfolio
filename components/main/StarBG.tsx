@@ -2,7 +2,7 @@
 
 import React, { useState, useRef, Suspense } from "react";
 import { Canvas, useFrame } from "@react-three/fiber";
-import { Points, PointMaterial } from "@react-three/drei";
+import { Points, PointMaterial, Preload } from "@react-three/drei";
 // @ts-ignore
 import * as random from "maath/random/dist/maath-random.esm";
 
@@ -17,8 +17,7 @@ const StarBackground = (props: any) => {
     ref.current.rotation.y -= delta/15;
   })
 
-
-  return (
+    return (
     <group rotation={[0,0, Math.PI / 4]}>
         <Points
         ref={ref}
@@ -29,7 +28,7 @@ const StarBackground = (props: any) => {
         >
             <PointMaterial
                 transparent
-                color="#ffffff"
+                color="$fff"
                 size={0.002}
                 sizeAttenuation={true}
                 dethWrite={false}
@@ -37,16 +36,19 @@ const StarBackground = (props: any) => {
         </Points>
     </group>
   )
-};
+}
 
-const StarsCanvas = () => (
-    <div className="w-full h-auto fixed inset-0 z-[20]">
-        <Canvas camera={{position: [0, 0, 1]}}>
-        <Suspense fallback={null}>
-            <StarBackground />
-        </Suspense>
-        </Canvas>
-    </div>
-)
+const StarsCanvas = () => {
+    return (
+        <div className="w-full h-auto fixed inset-0 -z-50">
+            <Canvas camera={{position: [0, 0, 1]}}>
+            <Suspense fallback={null}>
+                <StarBackground />
+            </Suspense>
+            </Canvas>
+        </div>
+    );
+}
+
 
 export default StarsCanvas;
