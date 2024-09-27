@@ -6,6 +6,7 @@ import MyProjects from "@/components/main/Projects";
 import StarBG from "@/components/main/StarBG";
 import Achievements from "@/components/main/Achievements"
 import Image from "next/image";
+import Contact from "@/components/main/Contact"
 
 
 export default function Home() {
@@ -19,6 +20,7 @@ export default function Home() {
       <MySkills/>
       <MyProjects/>
       <Achievements/>
+      <Contact/>
     </div>
   </main>
   );

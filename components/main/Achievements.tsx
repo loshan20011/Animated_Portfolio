@@ -44,7 +44,7 @@ const AchievementsSection = () => {
   return (
     <div className="w-full flex flex-col items-center p-8">
       <h1 className="text-[50px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-500">
-        About Me
+        Achievements<br/><br/>
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
         {achievements.map((achievement, index) => (
