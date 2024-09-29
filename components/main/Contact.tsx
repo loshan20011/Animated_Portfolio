@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { RxDiscordLogo, RxGithubLogo, RxLinkedinLogo } from "react-icons/rx";
+import { RxGithubLogo, RxLinkedinLogo, RxBookmark } from "react-icons/rx";
 
 
 const Footer = () => {
@@ -14,7 +14,7 @@ const Footer = () => {
             <div
               onClick={() =>
                 window.open(
-                  "https://www.linkedin.com/in/loshan-selvaraj-a78638215/",
+                  "https://www.linkedin.com/in/shakishnavi-murugan-717bb5286/",
                   "_blank"
                 )
               }
@@ -25,15 +25,18 @@ const Footer = () => {
             </div>
             <p
               onClick={() => {
-                window.open("https://github.com/loshan20011", "_blank");
+                window.open("https://github.com/ShakishnaviM", "_blank");
               }}
               className="flex flex-row items-center my-[15px] cursor-pointer"
             >
               <RxGithubLogo />
               <span className="text-[15px] ml-[6px]">Github</span>
             </p>
-            <p className="flex flex-row items-center my-[15px] cursor-pointer">
-              <RxDiscordLogo />
+            <p onClick={() => {
+                window.open("https://medium.com/@shakishnavi27", "_blank");
+              }}
+            className="flex flex-row items-center my-[15px] cursor-pointer">
+              <RxBookmark/>
               <span className="text-[15px] ml-[6px]">Medium</span>
             </p>
           </div>

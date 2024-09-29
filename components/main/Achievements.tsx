@@ -4,8 +4,8 @@ import React from "react";
 const achievements = [
   {
     year: "2018",
-    title: "Science Day Speech Competition organized by Hindu colledge",
-    description: "Awarded 1st place about Impact of AI ",
+    title: "Science Day Speech Competition about Impact of AI organized by Hindu colledge",
+    description: "Awarded 1st place",
     img: "/speech1st.jpg", // Replace with actual image paths
   },
   {

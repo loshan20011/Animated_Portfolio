@@ -34,7 +34,7 @@ const page = () => {
             <p className="text-justify mb-8 md:text-lg md:text-white text-base text-gray-400 mr-4 ">
                 <br/><br/>
                 First year individual web project for construction company, designed and developed 
-                responsive frontend pages. And deployed the website in GitHub platform
+                responsive frontend pages. And deployed the website in GitHub platform.
             </p>
           </div>
 
@@ -55,7 +55,7 @@ const page = () => {
             <div className="flex flex-row gap-4 w-full mb-14">
               <div className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[220px]">
                 <button
-                  onClick={() => window.open("https://thefoodflow.live", "_blank")}
+                  onClick={() => window.open("https://shakishnavim.github.io/lifespark/", "_blank")}
                 >
                    &nbsp;&nbsp; Visit Site&nbsp;&nbsp;
                 </button>
@@ -63,7 +63,7 @@ const page = () => {
 
               <div className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
                 <button
-                  onClick={() => window.open("https://github.com/link-to-repo", "_blank")}
+                  onClick={() => window.open("https://github.com/ShakishnaviM/lifespark", "_blank")}
                 >
                   &nbsp;&nbsp;Visit GitHub&nbsp;&nbsp;
                 </button>
@@ -74,13 +74,13 @@ const page = () => {
         <StarBG />
       </div>
 
-      <a href="#projects" className="cursor-pointer">
+      <a href="/" className="cursor-pointer">
         <motion.div
           variants={slideInFromLeft(0.5)}
           className="Welcome-box py-[8px] px-[7px] border border-[#a2790d] opacity-[0.9] flex items-center cursor-pointer"
         >
           <ArrowLeftIcon className="text-[#b48811] mr-[10px] h-5 w-5" />
-          <span className="text-[#b48811]">Back to Projects</span>
+          <span className="text-[#b48811]">Back to Projects&nbsp;</span>
         </motion.div>
       </a>
     </div>

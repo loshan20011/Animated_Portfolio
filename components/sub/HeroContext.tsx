@@ -82,11 +82,13 @@ const HeroContext = () => {
           and a commitment to continuous learning.
         </motion.p>
         <motion.a
-          variants={slideInFromLeft(1)}
-          className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
-        >
-          Contact Me
+              variants={slideInFromLeft(1)}
+             href="mailto:shaki27@gmail.com"  
+             className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
+            >
+              Contact Me
         </motion.a>
+
         </div>
 
 

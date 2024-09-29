@@ -84,6 +84,7 @@ export const Skill_data = [
     {
       name: "Github",
       src: "/gitwhite.png",
+      
     },
     {
       name: "LinkedIn",

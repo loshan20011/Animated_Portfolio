@@ -11,25 +11,6 @@ const cardVariants: Variants = {
   hover: { scale: 1.05, transition: { duration: 0.3 } },
 };
 
-// Animation Variants for the skill sections
-const sectionVariants: Variants = {
-  frontend: {
-    hidden: { opacity: 0, x: 100 },  // Starts from the right
-    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
-  },
-  backend: {
-    hidden: { opacity: 0, x: -100 },  // Starts from the left
-    visible: { opacity: 1, x: 0, transition: { duration: 0.5 } },
-  },
-  fullStack: {
-    hidden: { opacity: 0, y: 50 },  // Normal animation from below
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-  },
-  other: {
-    hidden: { opacity: 0, y: 50 },  // Normal animation from below
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5 } },
-  },
-};
 
 const Skills = () => {
   return (
@@ -41,26 +22,24 @@ const Skills = () => {
       <SkillSection
         title="Frontend Skills"
         skills={Frontend_skill}
-        cardVariants={cardVariants}
-        sectionVariants={sectionVariants.frontend} // Pass frontend variant
-      />
+        cardVariants={cardVariants} sectionVariants={{}}      />
       <SkillSection
         title="Backend Skills"
         skills={Backend_skill}
         cardVariants={cardVariants}
-        sectionVariants={sectionVariants.backend} // Pass backend variant
+        sectionVariants={{}} // Pass backend variant
       />
       <SkillSection
         title="Full Stack Skills"
         skills={Full_stack}
         cardVariants={cardVariants}
-        sectionVariants={sectionVariants.fullStack} // Pass full stack variant
+        sectionVariants={{}} // Pass full stack variant
       />
       <SkillSection
         title="Other Skills"
         skills={Other_skill}
         cardVariants={cardVariants}
-        sectionVariants={sectionVariants.other} // Pass other skills variant
+        sectionVariants={{}} // Pass other skills variant
       />
     </section>
   );
