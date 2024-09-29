@@ -3,10 +3,10 @@ import React from "react";
 
 const achievements = [
   {
-    year: "2023",
-    title: "Kamban Kazhagam Speech Competition",
-    description: "Awarded 2nd place in National level",
-    img: "/path-to-image-1.png", // Replace with actual image paths
+    year: "2018",
+    title: "Science Day Speech Competition organized by Hindu colledge",
+    description: "Awarded 1st place about Impact of AI ",
+    img: "/speech1st.jpg", // Replace with actual image paths
   },
   {
     year: "2024",
@@ -33,15 +33,16 @@ const achievements = [
     img: "/aurora.jpeg",
   },
   {
-    year: "2024",
-    title: "AI Ideathon Aurora",
-    description: "Top 6 finalist, University of Sri Jayawardanapura",
-    img: "/path-to-image-6.png",
+    year: "2018",
+    title: "National level speech competition organized by Kamban Kazhagam",
+    description: "Awarded 2nd place",
+    img: "/speech2nd.jpg",
   },
 ];
 
 const AchievementsSection = () => {
   return (
+    <section id ="awards">
     <div className="w-full flex flex-col items-center p-8">
       <h1 className="text-[50px] text-center font-semibold text-transparent bg-clip-text bg-gradient-to-r from-yellow-500 to-orange-500">
         Achievements<br/><br/>
@@ -70,6 +71,7 @@ const AchievementsSection = () => {
         ))}
       </div>
     </div>
+    </section>
   );
 };
 
