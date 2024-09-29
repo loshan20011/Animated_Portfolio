@@ -34,7 +34,7 @@ const page = () => {
             <p className="text-justify mb-8 md:text-lg md:text-white text-base text-gray-400 mr-4 ">
             <br/><br/><br/>
             In this project,I have crafted a conceptualized, designed, and developed a seamless and
-             responsive user interface for business organization
+             responsive user interface for business organization. 
             </p>
           </div>
 
@@ -55,32 +55,26 @@ const page = () => {
             <div className="flex flex-row gap-4 w-full mb-14">
               <div className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[220px]">
                 <button
-                  onClick={() => window.open("https://thefoodflow.live", "_blank")}
+                  onClick={() => window.open("https://hminterior.lk/", "_blank")}
                 >
                    &nbsp;&nbsp; Visit Site&nbsp;&nbsp;
                 </button>
               </div>
 
-              <div className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
-                <button
-                  onClick={() => window.open("https://github.com/link-to-repo", "_blank")}
-                >
-                  &nbsp;&nbsp;Visit GitHub&nbsp;&nbsp;
-                </button>
-              </div>
+            
             </div>
           </div>
         </div>
         <StarBG />
       </div>
 
-      <a href="#projects" className="cursor-pointer">
+      <a href="/" className="cursor-pointer">
         <motion.div
           variants={slideInFromLeft(0.5)}
           className="Welcome-box py-[8px] px-[7px] border border-[#a2790d] opacity-[0.9] flex items-center cursor-pointer"
         >
           <ArrowLeftIcon className="text-[#b48811] mr-[10px] h-5 w-5" />
-          <span className="text-[#b48811]">Back to Projects</span>
+          <span className="text-[#b48811]">Back to Projects&nbsp;</span>
         </motion.div>
       </a>
     </div>

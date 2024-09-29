@@ -8,8 +8,8 @@ import {motion} from 'framer-motion'
 import { ArrowLeftIcon } from '@heroicons/react/24/solid'
 import { slideInFromLeft } from '@/utils/motion'
 
-const functionalities = ["User Authentication", "Image Generating", "Practical Experiments", "AI chat Box"]
-const techStack = ["ReactJS", "CSS", "MongoDB", "Firebase", "NodeJS", "PostmanAPI", "API Integration" ];
+const functionalities = ["User Authentication", "Image Generating", "Practical Experiments", "AI chat Box", "Attempt to the quiz", "User dashboard", "Profile Management"]
+const techStack = ["ReactJS", "CSS", "MongoDB", "Firebase", "NodeJS", "PostmanAPI" ];
 
 const page = () => {
   return (
@@ -44,7 +44,7 @@ const page = () => {
             <div className="text-white flex flex-row mb-8 md:ml-0">
               <span className="mr-3 font-semibold">Tech Stack:</span>
               {techStack.map((tech, index) => (
-                <span key={index} className="ml-3 text-gray-400">{tech}</span>
+                <span key={index} className="ml-3 text-gray-400 ">{tech}</span>
               ))}
             </div>
             <div className="text-white mb-8 md:ml-0">
@@ -54,17 +54,11 @@ const page = () => {
               ))}
             </div>
             <div className="flex flex-row gap-4 w-full mb-14">
-              <div className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[220px]">
-                <button
-                  onClick={() => window.open("https://thefoodflow.live", "_blank")}
-                >
-                   &nbsp;&nbsp; Visit Site&nbsp;&nbsp;
-                </button>
-              </div>
+              
 
               <div className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
                 <button
-                  onClick={() => window.open("https://github.com/link-to-repo", "_blank")}
+                  onClick={() => window.open("https://github.com/ShakishnaviM/VirtualLab", "_blank")}
                 >
                   &nbsp;&nbsp;Visit GitHub&nbsp;&nbsp;
                 </button>
@@ -75,13 +69,13 @@ const page = () => {
         <StarBG />
       </div>
 
-      <a href="#projects" className="cursor-pointer">
+      <a href="/" className="cursor-pointer">
         <motion.div
           variants={slideInFromLeft(0.5)}
           className="Welcome-box py-[8px] px-[7px] border border-[#a2790d] opacity-[0.9] flex items-center cursor-pointer"
         >
           <ArrowLeftIcon className="text-[#b48811] mr-[10px] h-5 w-5" />
-          <span className="text-[#b48811]">Back to Projects</span>
+          <span className="text-[#b48811]">Back to Projects &nbsp;</span>
         </motion.div>
       </a>
     </div>

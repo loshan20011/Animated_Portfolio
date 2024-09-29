@@ -8,7 +8,7 @@ import {motion} from 'framer-motion'
 import { ArrowLeftIcon } from '@heroicons/react/24/solid'
 import { slideInFromLeft } from '@/utils/motion'
 
-const functionalities = ["User Authentication", "Product Browsing", "Cart Management", "Responsive UI"]
+const functionalities = ["User Authentication", "Product Browsing", "Cart Management", "Responsive UI", "Admin Dashboard"]
 const techStack = ["HTML5", "NodeJS", "MongoDB", "CSS3", "JavaScript", "Bootstrap5"];
 
 const page = () => {
@@ -64,7 +64,7 @@ const page = () => {
 
               <div className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]">
                 <button
-                  onClick={() => window.open("https://github.com/link-to-repo", "_blank")}
+                  onClick={() => window.open("https://github.com/PPT1001/TheFoodFlow", "_blank")}
                 >
                   &nbsp;&nbsp;Visit GitHub&nbsp;&nbsp;
                 </button>
@@ -75,13 +75,13 @@ const page = () => {
         <StarBG />
       </div>
 
-      <a href="#projects" className="cursor-pointer">
+      <a href="/" className="cursor-pointer">
         <motion.div
           variants={slideInFromLeft(0.5)}
           className="Welcome-box py-[8px] px-[7px] border border-[#a2790d] opacity-[0.9] flex items-center cursor-pointer"
         >
           <ArrowLeftIcon className="text-[#b48811] mr-[10px] h-5 w-5" />
-          <span className="text-[#b48811]">Back to Projects</span>
+          <span className="text-[#b48811]">Back to Projects &nbsp;</span>
         </motion.div>
       </a>
     </div>

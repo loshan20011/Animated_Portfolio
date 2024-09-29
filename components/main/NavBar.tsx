@@ -10,7 +10,7 @@ const Navbar = () => {
 
         <div className="w-[700px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full h-auto bg-[#03001417] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-          <a href="#Home" className="cursor-pointer">
+          <a href="/" className="cursor-pointer">
               Home
             </a>
             <a href="#about-me" className="cursor-pointer">
